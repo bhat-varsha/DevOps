@@ -18,6 +18,6 @@ jobs:
             run: echo "This is my step2 pipeline run"
 
           - name: breaking pipeline
-            run: exit 1
+            run: echo "pipeline fixed"
 
             
